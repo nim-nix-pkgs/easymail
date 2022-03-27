@@ -11,6 +11,7 @@
   inputs.src-easymail-v0_1_0.ref   = "refs/tags/v0.1.0";
   inputs.src-easymail-v0_1_0.owner = "coocheenin";
   inputs.src-easymail-v0_1_0.repo  = "easymail";
+  inputs.src-easymail-v0_1_0.dir   = "";
   inputs.src-easymail-v0_1_0.type  = "github";
   
   outputs = { self, nixpkgs, flakeNimbleLib, ...}@deps:
