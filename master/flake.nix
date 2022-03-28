@@ -11,7 +11,6 @@
   inputs.src-easymail-master.ref   = "refs/heads/master";
   inputs.src-easymail-master.owner = "coocheenin";
   inputs.src-easymail-master.repo  = "easymail";
-  inputs.src-easymail-master.dir   = "";
   inputs.src-easymail-master.type  = "github";
   
   outputs = { self, nixpkgs, flakeNimbleLib, ...}@deps:
